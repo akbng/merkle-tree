@@ -1,17 +1,30 @@
 {
-  "name": "merkletree",
+  "name": "merkle-tree",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "ts-node index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Merkle Tree",
+    "Merkle Root",
+    "Root Hash",
+    "Bitcoin",
+    "Blockchain",
+    "Datastructures",
+    "Algorithms"
+  ],
+  "author": "Ankan Bag",
+  "license": "MIT",
   "dependencies": {
     "jest": "^27.5.1",
     "ts-node": "^10.5.0",
     "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "ts-jest": "^27.1.3"
   }
 }
